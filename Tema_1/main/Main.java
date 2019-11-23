@@ -50,8 +50,6 @@ public final class Main {
         GameInputLoader gameInputLoader = new GameInputLoader(args[0]);
         GameInput gameInput = gameInputLoader.load();
 
-        // TODO Implement the game logic.
-
         PlayersData playersData = new PlayersData(gameInput);
 
         Rounds rounds = new Rounds();
